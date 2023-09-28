@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <ContainerBox className="flex flex-col lg:flex-row app-padding pt-navbar lg:pt-0">
       <div className="flex-[3] lg:flex-1 flex flex-col justify-center gap-6 items-center lg:items-start">
-        <h1 className="font-bold text-4xl lg:text-6xl text-center lg:text-left gradient-text">
+        <h1 className="font-semibold text-5xl lg:text-7xl text-center lg:text-left gradient-text leading-10">
           Grow with
           <br />
           confidence,
