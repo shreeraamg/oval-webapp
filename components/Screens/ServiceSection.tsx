@@ -5,6 +5,7 @@ import {
   MdOutlineScreenSearchDesktop,
   MdWeb,
 } from "react-icons/md";
+import Heading from "../Heading";
 
 const ServiceSection = () => {
   return (
@@ -18,6 +19,7 @@ const ServiceSection = () => {
         />
         <ServiceCard icon={MdWeb} title="Title" description="..asdasd." />
       </div>
+      <Heading>Our Offered Services</Heading>
     </ContainerBox>
   );
 };
