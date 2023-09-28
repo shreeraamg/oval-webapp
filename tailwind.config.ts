@@ -18,6 +18,9 @@ const config: Config = {
         brandDark: "#e6efeb",
         brandLight: "#f0f5f3",
       },
+      padding: {
+        navbar: "5rem",
+      },
     },
   },
   plugins: [daisyui],

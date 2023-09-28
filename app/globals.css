@@ -9,3 +9,7 @@
 .app-padding {
   @apply px-2 md:px-16 lg:px-32;
 }
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-b from-[#040907] to-[#38ad7d];
+}

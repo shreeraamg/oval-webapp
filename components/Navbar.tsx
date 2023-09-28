@@ -12,7 +12,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="py-3 flex-center app-padding shadow-md">
+    <nav className="fixed z-10 w-full py-3 flex-center app-padding shadow-md">
       <Link href="/">
         <Image
           src="/logo.png"
@@ -37,7 +37,7 @@ const Navbar = () => {
         </button>
         <ul
           tabIndex={0}
-          className="dropdown-content z-[1] top-4 menu p-2 shadow bg-base-100 rounded-box w-52"
+          className="dropdown-content z-50 top-4 menu p-2 shadow bg-base-100 rounded-box w-52"
         >
           {navLinks.map((item, index) => (
             <li key={index}>
