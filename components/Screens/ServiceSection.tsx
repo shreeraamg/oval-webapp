@@ -10,7 +10,7 @@ import ContactButton from "../ContactButton";
 
 const ServiceSection = () => {
   return (
-    <ContainerBox className="pt-navbar app-padding flex flex-col items-center gap-y-6 lg:gap-y-24">
+    <ContainerBox className="pt-navbar app-padding flex flex-col items-center gap-y-6 lg:gap-y-24 mb-16 lg:mb-0">
       <div className="flex flex-col md:flex-row gap-10 w-full items-center">
         <ServiceCard icon={MdPeopleOutline} title="Title" description="..." />
         <ServiceCard

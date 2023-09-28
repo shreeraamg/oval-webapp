@@ -21,6 +21,9 @@ const config: Config = {
       padding: {
         navbar: "5rem",
       },
+      height: {
+        "30rem": "30rem",
+      },
     },
   },
   plugins: [daisyui],
