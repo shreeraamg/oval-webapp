@@ -2,18 +2,18 @@ import React from "react";
 import { IconType } from "react-icons";
 
 interface Props {
-  title: string;
+  service: string;
   icon: IconType;
   description: string;
 }
 
-const ServiceCard = ({ title, icon: Icon, description }: Props) => {
+const ServiceCard = ({ service, icon: Icon, description }: Props) => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl lg:hover:-translate-y-8 transition-transform duration-300">
-      <div className="card-body flex flex-col items-center">
-        <Icon size={60} />
-        <h2 className="card-title">{title}</h2>
-        <p className="text-center">{description}</p>
+      <div className="card-body flex flex-col items-center gap-y-4">
+        <Icon size={68} />
+        <h2 className="card-title">{service}</h2>
+        <p className="text-center tex-sm">{description}</p>
       </div>
     </div>
   );
