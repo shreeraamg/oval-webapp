@@ -12,7 +12,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="fixed z-40 bg-white w-full py-3 flex-center app-padding shadow-md">
+    <nav className="fixed z-40 bg-white w-full py-3 flex items-center justify-between app-padding shadow-md">
       <Link href="/">
         <Image
           src="/logo.png"
