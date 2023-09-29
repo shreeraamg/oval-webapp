@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ContainerBox from "../ContainerBox";
 import ContactButton from "../ContactButton";
 
 const HeroSection = () => {

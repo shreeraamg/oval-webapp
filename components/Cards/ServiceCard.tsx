@@ -9,7 +9,7 @@ interface Props {
 
 const ServiceCard = ({ service, icon: Icon, description }: Props) => {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl lg:hover:-translate-y-8 transition-transform duration-300">
+    <div className="card w-[90%] lg:w-96 bg-base-100 shadow-xl lg:hover:-translate-y-8 transition-transform duration-300">
       <div className="card-body flex flex-col items-center gap-y-4">
         <Icon size={68} />
         <h2 className="card-title">{service}</h2>
