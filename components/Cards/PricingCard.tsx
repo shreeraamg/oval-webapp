@@ -4,7 +4,7 @@ const PricingCard = () => {
       <h3 className="font-bold text-xl">Social Media Handling</h3>
       <h3 className="py-4">
         Starts from <br />
-        <span className="text-green-600 text-3xl font-bold">$10,000</span>{" "}
+        <span className="text-green-600 text-3xl font-black">$10,000</span>{" "}
         /month
       </h3>
       <p>Includes</p>
