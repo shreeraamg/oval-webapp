@@ -2,10 +2,20 @@
 
 import Typewriter from "typewriter-effect";
 
-<Typewriter
-  options={{
-    strings: ["Hello", "World"],
-    autoStart: true,
-    loop: true,
-  }}
-/>;
+type Props = {
+  words: string[];
+};
+
+const TypeEffect = ({ words }: Props) => {
+  return (
+    <Typewriter
+      options={{
+        strings: words,
+        autoStart: true,
+        loop: true,
+      }}
+    />
+  );
+};
+
+export default TypeEffect;

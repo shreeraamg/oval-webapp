@@ -7,6 +7,7 @@ import {
 } from "react-icons/md";
 import Heading from "../Heading";
 import ContactButton from "../ContactButton";
+import TypeEffect from "../TypeEffect";
 
 const ServiceSection = () => {
   return (
@@ -20,7 +21,12 @@ const ServiceSection = () => {
         />
         <ServiceCard icon={MdWeb} title="Title" description="..asdasd." />
       </div>
-      <Heading>Our Offered Services</Heading>
+      <span className="flex flex-col md:flex-row mt-6 lg:-mb-6 items-center">
+        <Heading className="lg:text-5xl">We Create&nbsp;&nbsp;</Heading>
+        <Heading className="bg-success text-5xl lg:text-6xl">
+          <TypeEffect words={["Hello", "World"]} />
+        </Heading>
+      </span>
       <ContactButton title="Want to create" />
     </ContainerBox>
   );
