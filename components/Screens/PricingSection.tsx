@@ -1,14 +1,13 @@
 import { services } from "@/data";
 import PricingCard from "../Cards/PricingCard";
 import ContactButton from "../ContactButton";
-import ContainerBox from "../ContainerBox";
 import Heading from "../Heading";
 
 const PricingSection = () => {
   return (
-    <ContainerBox className="app-padding flex flex-col items-center mb-12 lg:mb-0">
+    <div className="app-padding my-16">
       <Heading>Pricing Structure</Heading>
-      <div className="flex gap-x-10 flex-col gap-y-6 lg:flex-row my-12 justify-between">
+      <div className="flex gap-x-16 flex-col gap-y-6 lg:flex-row my-12 justify-center">
         {services.map((item, index) => (
           <PricingCard
             key={index}
@@ -18,8 +17,10 @@ const PricingSection = () => {
           />
         ))}
       </div>
-      <ContactButton title="Book a Call" />
-    </ContainerBox>
+      <div className="flex justify-center">
+        <ContactButton title="Book a Call" className="w-40" />
+      </div>
+    </div>
   );
 };
 
