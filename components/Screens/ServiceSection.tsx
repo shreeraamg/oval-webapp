@@ -21,7 +21,9 @@ const ServiceSection = () => {
       <span className="flex flex-col md:flex-row items-center justify-center my-36 gap-y-4">
         <Heading className="text-6xl">We Create&nbsp;&nbsp;</Heading>
         <Heading className="bg-success text-7xl">
-          <TypeEffect words={["Hello", "World"]} />
+          <TypeEffect
+            words={["Brands", "Business", "Strategies", "Value", "Growth"]}
+          />
         </Heading>
       </span>
       <div className="flex justify-center">

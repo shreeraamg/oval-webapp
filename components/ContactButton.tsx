@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
+import styles from "./components.module.css";
 
 type Props = {
   title: string;
@@ -8,11 +9,10 @@ type Props = {
 
 const ContactButton = ({ title, className }: Props) => {
   return (
-    <Link
-      href="/"
-      className={twMerge("btn btn-success normal-case", className)}
-    >
-      {title}
+    <Link href="https://wa.link/u78yu4" className={className}>
+      <button className={styles.button}>
+        <span>{title}</span>
+      </button>
     </Link>
   );
 };
