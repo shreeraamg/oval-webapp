@@ -20,7 +20,7 @@ const ServiceSection = () => {
       </div>
       <span className="flex flex-col md:flex-row items-center justify-center my-36 gap-y-4">
         <Heading className="text-6xl">We Create&nbsp;&nbsp;</Heading>
-        <Heading className="bg-success text-7xl">
+        <Heading className="bg-gradient-to-r from-[#3dff00] via-[#00ffa1] to-[#00ddeb] text-7xl">
           <TypeEffect
             words={["Brands", "Business", "Strategies", "Value", "Growth"]}
           />
