@@ -2,13 +2,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 import ContactButton from "./ContactButton";
-
-const navLinks = [
-  { title: "Home", url: "/" },
-  { title: "Services", url: "/#services" },
-  { title: "Blog", url: "/" },
-  { title: "About us", url: "/" },
-];
+import { navLinks } from "@/data";
 
 const Navbar = () => {
   return (
