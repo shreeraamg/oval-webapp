@@ -6,7 +6,7 @@ interface Props {
 
 const PricingCard = ({ service, startPrice, offerings }: Props) => {
   return (
-    <div className="bg-base-200 w-full md:w-80 rounded-2xl p-6">
+    <div className="bg-base-200 w-[80%] md:w-80 rounded-2xl p-6">
       <h3 className="font-bold text-xl">{service}</h3>
       <h3 className="py-4">
         Starts from <br />
