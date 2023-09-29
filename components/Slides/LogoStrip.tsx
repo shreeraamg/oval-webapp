@@ -13,7 +13,7 @@ const clients = [
 
 const LogoStrip = () => {
   return (
-    <div className="w-full bg-black text-white py-4 overflow-hidden whitespace-nowrap relative">
+    <div className="w-full bg-black text-white py-2 lg:py-4 overflow-hidden whitespace-nowrap relative">
       <div className="inline-block animate-slide-slow">
         {clients.map((client, index) => (
           <Image
