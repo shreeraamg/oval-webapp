@@ -1,7 +1,7 @@
-import { services } from "@/data";
 import PricingCard from "../Cards/PricingCard";
 import ContactButton from "../ContactButton";
 import Heading from "../Heading";
+import { services } from "@/data";
 
 const PricingSection = () => {
   return (

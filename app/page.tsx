@@ -1,10 +1,11 @@
-import HeroSection from "@/components/Screens/HeroSection";
-import PortfolioSection from "@/components/Screens/PortfolioSection";
-import PricingSection from "@/components/Screens/PricingSection";
-import ServiceSection from "@/components/Screens/ServiceSection";
-import TestimonialSection from "@/components/Screens/TestimonialSection";
+import {
+  HeroSection,
+  PortfolioSection,
+  PricingSection,
+  ServiceSection,
+  TestimonialSection,
+} from "@/components/Screens";
 import LogoStrip from "@/components/Slides/LogoStrip";
-import Image from "next/image";
 
 export default function Home() {
   return (
