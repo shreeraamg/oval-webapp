@@ -24,6 +24,15 @@ const config: Config = {
       height: {
         "30rem": "30rem",
       },
+      keyframes: {
+        slide: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        "slide-slow": "slide 25s infinite linear",
+      },
     },
   },
   plugins: [daisyui],
