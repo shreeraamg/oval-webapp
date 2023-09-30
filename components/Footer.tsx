@@ -1,12 +1,12 @@
 import { company } from "@/data";
 import Link from "next/link";
 import Logo from "./Logo";
-import ExternalLinkIcon from "@radix-ui/react-icons/dist/ExternalLinkIcon";
+import { ExternalLinkIcon } from "@radix-ui/react-icons";
 
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content relative">
-      <span className="flex-center absolute bottom-2 right-2 font-semibold text-base text-cyan-600">
+      <span className="flex-center absolute bottom-2 left-2 lg:right-2 font-medium text-base text-cyan-600">
         <Link
           className="flex-center"
           target="_blank"
