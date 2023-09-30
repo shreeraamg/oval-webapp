@@ -6,7 +6,7 @@ const useTransition = (inputArr: string[] | object[]) => {
   useEffect(() => {
     const interval = setInterval(
       () => setSlide((prev) => (prev === inputArr.length - 1 ? 0 : prev + 1)),
-      4000
+      7000
     );
     return () => clearInterval(interval);
   }, [inputArr.length]);

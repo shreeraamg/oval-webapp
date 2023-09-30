@@ -5,7 +5,7 @@ import SocialMediaHandles from "../Slides/SocialMediaHandles";
 const PortfolioSection = () => {
   return (
     <div className="app-padding">
-      <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-y-6 mb-12">
+      <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-y-6 mb-28">
         <div className="lg:flex-[2] h-full">
           <WebsiteProjects />
         </div>

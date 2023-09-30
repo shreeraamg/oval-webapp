@@ -9,4 +9,6 @@ const navLinks = [
   { title: "About us", url: "/aboutus" },
 ];
 
-export { services, websites, navLinks, clients };
+const company = "Oval Digital Marketing";
+
+export { company, services, websites, navLinks, clients };

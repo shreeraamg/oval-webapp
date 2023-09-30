@@ -1,25 +1,21 @@
-import Image from "next/image";
+import { company } from "@/data";
 import Link from "next/link";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content">
       <aside>
-        <Image
-          src="/logo.png"
-          alt="Oval Digital Marketing"
-          width={150}
-          height={50}
-        />
-        <p>
-          Oval Digital Marketing
-          <br />
-          +91 80560 05348
-          <br />
-          <Link href="mailto:ovaldigitalmarketing@gmail.com">
-            ovaldigitalmarketing@gmail.com
-          </Link>
-        </p>
+        <Logo />
+        <ul className="space-y-2">
+          <li>{company}</li>
+          <li>+91 80560 05348</li>
+          <li>
+            <Link href="mailto:ovaldigitalmarketing@gmail.com">
+              ovaldigitalmarketing@gmail.com
+            </Link>
+          </li>
+        </ul>
       </aside>
       <nav>
         <header className="footer-title">Services</header>
@@ -38,7 +34,7 @@ const Footer = () => {
         <Link className="link link-hover" href="/aboutus">
           About us
         </Link>
-        <Link className="link link-hover" href="/">
+        <Link className="link link-hover" href="/#services">
           Services
         </Link>
         <Link className="link link-hover" href="/blog">
