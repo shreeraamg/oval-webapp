@@ -1,20 +1,11 @@
 import { company } from "@/data";
 import Link from "next/link";
 import Logo from "./Logo";
+import Shreeraam from "@/hooks/Shreeraam";
 
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content relative">
-      <p className="inline absolute bottom-2 right-2">
-        Made by{" "}
-        <Link
-          className="text-cyan-700"
-          target="_blank"
-          href="https://www.linkedin.com/in/shreeraam"
-        >
-          Shreeraam G
-        </Link>
-      </p>
       <aside>
         <Logo />
         <ul className="space-y-2">
@@ -39,6 +30,7 @@ const Footer = () => {
           Website designing
         </Link>
       </nav>
+      <Shreeraam />
       <nav>
         <header className="footer-title">Company</header>
         <Link className="link link-hover" href="/aboutus">
