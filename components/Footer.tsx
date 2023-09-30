@@ -1,11 +1,22 @@
 import { company } from "@/data";
 import Link from "next/link";
 import Logo from "./Logo";
-import Shreeraam from "@/hooks/Shreeraam";
+import ExternalLinkIcon from "@radix-ui/react-icons/dist/ExternalLinkIcon";
 
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content relative">
+      <span className="flex-center absolute bottom-2 right-2 font-semibold text-base text-cyan-600">
+        <Link
+          className="flex-center"
+          target="_blank"
+          href="https://www.linkedin.com/in/shreeraam"
+        >
+          <p>Made by&nbsp;&nbsp;</p>
+          Shreeraam G&nbsp;&nbsp;
+          <ExternalLinkIcon />
+        </Link>
+      </span>
       <aside>
         <Logo />
         <ul className="space-y-2">
@@ -30,7 +41,6 @@ const Footer = () => {
           Website designing
         </Link>
       </nav>
-      <Shreeraam />
       <nav>
         <header className="footer-title">Company</header>
         <Link className="link link-hover" href="/aboutus">
