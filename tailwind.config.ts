@@ -19,7 +19,7 @@ const config: Config = {
         brandLight: "#f0f5f3",
       },
       padding: {
-        navbar: "5rem",
+        navbar: "6rem",
       },
       height: {
         "30rem": "30rem",
