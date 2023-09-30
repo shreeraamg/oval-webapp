@@ -10,5 +10,10 @@ const navLinks = [
 ];
 
 const company = "Oval Digital Marketing";
+const contactusText = [
+  "Connect with the Dream Team",
+  "We're just a click away",
+  "Get in touch - we don't bite",
+];
 
-export { company, services, websites, navLinks, clients };
+export { company, services, websites, navLinks, clients, contactusText };

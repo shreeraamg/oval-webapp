@@ -2,7 +2,7 @@ import ServiceCard from "../Cards/ServiceCard";
 import Heading from "../Heading";
 import ContactButton from "../ContactButton";
 import TypeEffect from "../TypeEffect";
-import { services } from "@/data";
+import { contactusText, services } from "@/data";
 
 const ServiceSection = () => {
   return (
@@ -27,7 +27,7 @@ const ServiceSection = () => {
         </Heading>
       </span>
       <div className="flex justify-center">
-        <ContactButton title="We're just a click away" />
+        <ContactButton title={contactusText[1]} />
       </div>
     </div>
   );

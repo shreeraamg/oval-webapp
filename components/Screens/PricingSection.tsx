@@ -1,7 +1,7 @@
 import PricingCard from "../Cards/PricingCard";
 import ContactButton from "../ContactButton";
 import Heading from "../Heading";
-import { services } from "@/data";
+import { contactusText, services } from "@/data";
 
 const PricingSection = () => {
   return (
@@ -18,7 +18,7 @@ const PricingSection = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <ContactButton title="Get in touch - we don't bite" />
+        <ContactButton title={contactusText[2]} />
       </div>
     </div>
   );

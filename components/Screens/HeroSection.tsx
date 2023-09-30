@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ContactButton from "../ContactButton";
+import { contactusText } from "@/data";
 
 const HeroSection = () => {
   return (
@@ -13,7 +14,7 @@ const HeroSection = () => {
           thrive with Oval.
         </h1>
         <ContactButton
-          title="Connect with the Dream Team"
+          title={contactusText[0]}
           className="w-40 absolute bottom-12 lg:bottom-28 -translate-x-1/2 self-center lg:text-lg"
         />
       </div>
