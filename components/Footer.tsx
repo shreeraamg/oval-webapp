@@ -35,23 +35,23 @@ const Footer = () => {
       </nav>
       <nav>
         <header className="footer-title">Company</header>
-        <Link className="link link-hover" href="/">
+        <Link className="link link-hover" href="/aboutus">
           About us
         </Link>
         <Link className="link link-hover" href="/">
           Services
         </Link>
-        <Link className="link link-hover" href="/">
+        <Link className="link link-hover" href="/blog">
           Blog
         </Link>
-        <Link className="link link-hover" href="/">
+        <Link className="link link-hover" href="/careers">
           Careers
         </Link>
       </nav>
       <nav>
         <header className="footer-title">Legal</header>
-        <Link href="/">Terms and Conditions</Link>
-        <Link href="/">Privacy Policy</Link>
+        <Link href="/terms-and-conditions">Terms and Conditions</Link>
+        <Link href="/privacy-policy">Privacy Policy</Link>
       </nav>
     </footer>
   );
