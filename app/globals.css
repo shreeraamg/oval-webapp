@@ -11,5 +11,9 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-b from-[#040907] to-[#38ad7d];
+  @apply bg-clip-text text-transparent bg-gradient-to-b from-[#438130] via-[#22d694] to-[#040907];
 }
+
+/* from-[#3dff00] via-[#00ffa1] to-[#00ddeb] */
+
+/* from-[#040907] to-[#38ad7d]; */

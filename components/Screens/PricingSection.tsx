@@ -18,7 +18,7 @@ const PricingSection = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <ContactButton title="Book a Call" className="w-40" />
+        <ContactButton title="Get in touch - we don't bite" />
       </div>
     </div>
   );

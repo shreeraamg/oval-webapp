@@ -13,8 +13,8 @@ const HeroSection = () => {
           thrive with Oval.
         </h1>
         <ContactButton
-          title="Work with us"
-          className="w-40 absolute bottom-12 lg:bottom-28 self-center"
+          title="Connect with the Dream Team"
+          className="w-40 absolute bottom-12 lg:bottom-28 -translate-x-1/2 self-center lg:text-lg"
         />
       </div>
       <div className="flex-1 flex-col flex items-center lg:justify-center">

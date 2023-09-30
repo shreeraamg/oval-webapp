@@ -27,7 +27,7 @@ const ServiceSection = () => {
         </Heading>
       </span>
       <div className="flex justify-center">
-        <ContactButton title="Want to create" className="w-40" />
+        <ContactButton title="We're just a click away" />
       </div>
     </div>
   );
