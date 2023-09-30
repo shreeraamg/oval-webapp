@@ -6,7 +6,7 @@ import { services } from "@/data";
 
 const ServiceSection = () => {
   return (
-    <div className="app-padding py-20">
+    <div className="app-padding py-20" id="services">
       <Heading className="mb-12">Our offered Services</Heading>
       <div className="flex flex-col md:flex-row gap-10 w-full items-center justify-between">
         {services.map((item, index) => (

@@ -5,8 +5,8 @@ import { websites } from "./portfolio";
 const navLinks = [
   { title: "Home", url: "/" },
   { title: "Services", url: "/#services" },
-  { title: "Blog", url: "/" },
-  { title: "About us", url: "/" },
+  { title: "Blog", url: "/blog" },
+  { title: "About us", url: "/aboutus" },
 ];
 
 export { services, websites, navLinks, clients };
