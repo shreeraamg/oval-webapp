@@ -5,7 +5,7 @@ import { contactusText } from "@/data";
 const HeroSection = () => {
   return (
     <div className="w-full h-screen flex flex-col md:flex-row">
-      <div className="flex-1 flex-col flex-center relative">
+      <div className="flex-1 flex-col flex-center relative gap-5 lg:gap-0">
         <h1 className="font-semibold text-5xl lg:text-7xl text-center lg:text-left gradient-text">
           Grow with
           <br />
@@ -15,7 +15,7 @@ const HeroSection = () => {
         </h1>
         <ContactButton
           title={contactusText[0]}
-          className="w-40 absolute bottom-12 lg:bottom-28 -translate-x-1/2 self-center lg:text-lg"
+          className="w-40 lg:absolute bottom-28 -translate-x-1/2 self-center lg:text-lg"
         />
       </div>
       <div className="flex-1 flex-col flex items-center lg:justify-center">
