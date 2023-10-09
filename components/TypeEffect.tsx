@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 
 type Props = {
   words: string[];
+  // pauseTime?: number;
 };
 
 const TypeEffect = ({ words }: Props) => {

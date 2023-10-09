@@ -33,8 +33,8 @@ export const socialMediaPosters: poster[] = [
   {tag: "Informative Post", imageSrc: "/socialmedia/infopost4.jpg"},
   {tag: "Service Showcasing", imageSrc: "/socialmedia/serviceshowcase2.jpg"},
   {tag: "Personal branding Videos", imageSrc: "/socialmedia/personalbrandingvideo1.jpg"},
-  {tag: "Branding", imageSrc: "/socialmedia/branding5"},
-  {tag: "Informative Post", imageSrc: "/socialmedia/infopost5"},
+  {tag: "Branding", imageSrc: "/socialmedia/branding5.jpg"},
+  {tag: "Informative Post", imageSrc: "/socialmedia/infopost5.jpg"},
   {tag: "Meme Reels", imageSrc: "/socialmedia/memereel1.jpg"},
   {tag: "Corporate Branding", imageSrc: "/socialmedia/corporatebranding1.jpg"}, 
 ]
