@@ -18,7 +18,7 @@ const PortfolioSection = () => {
         <Heading className="lg:flex-1">Our Website Projects</Heading>
       </div>
       <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-y-6">
-        <div className="flex flex-col min-h-full justify-center items-start gap-36 w-full">
+        <div className="flex flex-col min-h-full justify-center items-start gap-20 lg:gap-36 w-full">
           <Heading className="self-center">Our Social Media Handles</Heading>
           <Heading className="text-6xl self-center">
             {socialMediaPosters[currentPoster].tag}
