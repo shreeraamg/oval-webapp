@@ -7,12 +7,10 @@ type Props = {
   className?: string;
 };
 
-const ContactButton = ({ title, className }: Props) => {
+const ContactButton = ({ title }: Props) => {
   return (
-    <Link href="https://wa.link/u78yu4" className={className}>
-      <button className={styles.button}>
-        <span>{title}</span>
-      </button>
+    <Link href="https://wa.link/u78yu4" className={styles.bn5}>
+      {title}
     </Link>
   );
 };
