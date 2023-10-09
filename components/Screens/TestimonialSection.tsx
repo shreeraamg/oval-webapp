@@ -19,18 +19,6 @@ const TestimonialSection = () => {
               imageSrc={cwt.imageSrc}
             />
           ))}
-        {clients
-          .filter((client) =>
-            client.testimonial !== undefined ? client : null
-          )
-          .map((cwt, index) => (
-            <TestimonialCard
-              key={index}
-              company={cwt.company}
-              testimonial={cwt.testimonial || ""}
-              imageSrc={cwt.imageSrc}
-            />
-          ))}
       </div>
     </div>
   );
