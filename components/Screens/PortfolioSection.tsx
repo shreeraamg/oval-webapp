@@ -17,10 +17,12 @@ const PortfolioSection = () => {
         </div>
         <Heading className="lg:flex-1">Our Website Projects</Heading>
       </div>
-      <div className="flex flex-col lg:flex-row w-full justify-between gap-y-6">
-        <div className="flex flex-col min-h-full justify-center gap-16 bg-red-100">
-          <Heading>Our Social Media Handles</Heading>
-          <Heading>{socialMediaPosters[currentPoster].tag}</Heading>
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-y-6">
+        <div className="flex flex-col min-h-full justify-center items-start gap-36 w-full">
+          <Heading className="self-center">Our Social Media Handles</Heading>
+          <Heading className="text-6xl self-center">
+            {socialMediaPosters[currentPoster].tag}
+          </Heading>
           {/* <Heading>
             <TypeEffect
               words={socialMediaPosters.map((poster) => poster.tag)}
