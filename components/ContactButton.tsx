@@ -9,7 +9,7 @@ type Props = {
 
 const ContactButton = ({ title }: Props) => {
   return (
-    <Link href="https://wa.link/u78yu4" className={styles.bn5}>
+    <Link href="https://wa.link/u78yu4" className={twMerge(styles.bn5)}>
       {title}
     </Link>
   );

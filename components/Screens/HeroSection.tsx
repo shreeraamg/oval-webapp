@@ -13,10 +13,9 @@ const HeroSection = () => {
           <br />
           thrive with Oval.
         </h1>
-        <ContactButton
-          title={contactusText[0]}
-          className="w-40 lg:absolute bottom-28 -translate-x-1/2 self-center lg:text-lg"
-        />
+        <span className="relative lg:top-12 top-6">
+          <ContactButton title={contactusText[0]} />
+        </span>
       </div>
       <div className="flex-1 flex-col flex items-center lg:justify-center">
         <div className="h-72 lg:h-[26rem] w-72 lg:w-[26rem] relative">

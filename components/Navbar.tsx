@@ -18,7 +18,9 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
-      <ContactButton title="Contact Us" className="hidden lg:flex" />
+      <span className="hidden lg:flex">
+        <ContactButton title="Contact Us" />
+      </span>
       <div className="flex lg:hidden dropdown dropdown-hover dropdown-end">
         <button className="btn btn-ghost btn-square">
           <HamburgerMenuIcon />
