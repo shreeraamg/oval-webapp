@@ -13,7 +13,7 @@ const PricingCard = ({ service, startPrice, offerings }: Props) => {
         <span className="text-green-600 text-3xl font-bold">
           ₹{startPrice}
         </span>{" "}
-        /month
+        {service !== "Website Designing" && <span>/month</span>}
       </h3>
       <p className="font-medium text-lg pb-1">Includes:</p>
       <ul className="list-disc list-inside space-y-2 font-medium">

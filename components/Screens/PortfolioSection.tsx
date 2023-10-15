@@ -17,19 +17,16 @@ const PortfolioSection = () => {
         </div>
         <Heading className="lg:flex-1">Our Website Projects</Heading>
       </div>
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-y-6">
-        <div className="flex flex-col min-h-full justify-center items-start gap-20 lg:gap-36 w-full">
-          <Heading className="self-center">Our Social Media Handles</Heading>
-          <Heading className="text-6xl self-center">
-            {socialMediaPosters[currentPoster].tag}
-          </Heading>
-          {/* <Heading>
+      <div className="flex flex-col lg:flex-row w-full justify-between gap-y-6">
+        <div className="flex flex-col min-h-full gap-20 lg:gap-36 w-full py-6 relative">
+          <Heading className="">Our Social Media Handles</Heading>
+          <Heading className="max-w-fit self-center text-4xl lg:text-6xl bg-gradient-to-r from-[#3dff00] via-[#00ffa1] to-[#00ddeb]">
             <TypeEffect
               words={socialMediaPosters.map((poster) => poster.tag)}
             />
-          </Heading> */}
+          </Heading>
         </div>
-        <div>
+        <div className="flex justify-between">
           <SocialMediaHandles />
         </div>
       </div>
